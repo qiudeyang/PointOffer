@@ -20,6 +20,7 @@ class Singleton{
         return instance;
     }
 }
+//The following is the best method
 public class Singleton_2 {
     private static Singleton_2 ourInstance = new Singleton_2();
 
