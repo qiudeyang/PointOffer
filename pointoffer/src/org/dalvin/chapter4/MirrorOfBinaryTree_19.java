@@ -5,7 +5,7 @@ import org.dalvin.chapter2.TreeNode;
 /**
  * Created by qiudeyang on 21/12/16.
  */
-public class MirrorOfBinaryTree {
+public class MirrorOfBinaryTree_19 {
     public static void mirrorOfBinaryTree(TreeNode root){
         if (root == null){
             return;
