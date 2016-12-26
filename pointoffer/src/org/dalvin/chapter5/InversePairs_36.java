@@ -6,17 +6,20 @@ package org.dalvin.chapter5;
 public class InversePairs_36 {
     //归并排序，时间复杂度为O(n*logn)
     public static int inversePairs(int[] data) {
-        if (data == null || data.length == 0) {
+        //防御性编程
+        if (data == null || data.length <= 0) {
             return 0;
         }
         int[] copy = new int[data.length];
         for (int i = 0; i < data.length; i++) {
             copy[i] = data[i];
         }
+        //都是套路
         return invesePairsCore(data, copy, 0, data.length - 1);
     }
 
     public static int invesePairsCore(int[] data, int[] copy, int start, int end) {
+        //递归的终止条件
         if (start == end) {
             copy[start] = data[start];
             return 0;
@@ -36,6 +39,7 @@ public class InversePairs_36 {
                 copy[indexCopy--]=data[j--];
             }
         }
+        //下面两个循环不要忘了
         for (; i >= start;i-- ) {
             copy[indexCopy--]=data[i];
         }
