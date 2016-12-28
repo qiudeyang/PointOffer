@@ -1,4 +1,4 @@
-package org.dalvin.chapter8;
+package org.dalvin.chapter8.array;
 
 /**
  * Created by qiudeyang on 26/12/16.
