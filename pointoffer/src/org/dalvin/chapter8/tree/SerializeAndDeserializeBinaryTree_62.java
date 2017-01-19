@@ -30,7 +30,7 @@ public class SerializeAndDeserializeBinaryTree_62 {
     }
 
     public static TreeNode deserializeBinaryTree(String data) {
-        Queue<String> queue = new LinkedList<String>();
+        Queue<String> queue = new LinkedList<String>();  //用队列实现
         queue.addAll(Arrays.asList(data.split(spliter)));
         return buildTree(queue);
     }
