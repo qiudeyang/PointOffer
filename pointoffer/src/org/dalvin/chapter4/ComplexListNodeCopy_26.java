@@ -43,9 +43,10 @@ public class ComplexListNodeCopy_26 {
             pNode = pNode.next;
         }
         while (pNode != null) {
+            //下面两行讲pClonedNode
             pClonedNode.next = pNode.next;
             pClonedNode = pClonedNode.next;
-
+            //下面两行讲pNode，代码都对称的
             pNode.next = pClonedNode.next;
             pNode = pNode.next;
         }
