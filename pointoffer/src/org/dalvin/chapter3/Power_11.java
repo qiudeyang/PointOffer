@@ -3,19 +3,30 @@ package org.dalvin.chapter3;
 /**
  * Created by qiudeyang on 20/12/16.
  */
+//书上的解法有些问题。
 public class Power_11 {
+    boolean validInput = true;
     public double power(double x, int n) {
-        boolean validInput = true;
         if (isEqual(x,0.0) && n < 0){
             validInput = false;
             return 0.0;
         }
-        int unsignedN = Math.abs(n);
-        double result = powerUnsigned(x,unsignedN);
-        if (n < 0){
-            result = 1 / result;
+        if (n == 0){
+            return 1.0;
         }
-        return result;
+        if (n == Integer.MIN_VALUE){
+            x = x * x;
+            n = n >> 1;
+        }
+        if (n < 0){
+            n = -n;
+            x = 1/x;
+        }
+        if ((n & 1) == 1){
+            return x*power(x*x,n>>1);
+        }else{
+            return power(x*x,n>>1);
+        }
     }
     public boolean isEqual(double num1,double num2){
         if (Math.abs(num1-num2)<0.000001){
@@ -23,20 +34,6 @@ public class Power_11 {
         }else{
             return false;
         }
-    }
-    public double powerUnsigned(double x,int unsignedN){
-        if (unsignedN == 0){
-            return 1.0;
-        }
-        if (unsignedN == 1){
-            return x;
-        }
-        double result = powerUnsigned(x,unsignedN>>1);//递归调用，用位运算比除2更快
-        result *= result;
-        if ((unsignedN & 1) == 1){   //位运算判断奇数更快
-            result *= x;
-        }
-        return result;
     }
 
     public static void main(String[] args) {
