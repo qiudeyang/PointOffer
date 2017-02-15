@@ -3,11 +3,12 @@ package org.dalvin.chapter2;
 /**
  * Created by qiudeyang on 18/12/16.
  */
+//可参考：https://qiudeyang.github.io/2017/02/15/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F%E7%9A%84%E7%9B%B8%E5%85%B3%E6%80%BB%E7%BB%93/
 class Singleton{
     private Singleton(){
 
     }
-    private static Singleton instance = null;
+    private static volatile Singleton instance = null;
 
     public static Singleton getInstance(){
         if (instance == null){
