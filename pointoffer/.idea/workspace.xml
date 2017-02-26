@@ -55,7 +55,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#966#967#0" expanded="false" />
+                <element signature="e#1007#1008#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,17 +69,95 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="9" column="30" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="30" />
+              <folding>
+                <element signature="e#905#906#0" expanded="false" />
+                <element signature="e#945#946#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Singleton_2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/dalvin/chapter2/Singleton_2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Singleton_2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/dalvin/chapter2/Singleton_2.java">
+      <file leaf-file-name="LowestCommonParent_50.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/dalvin/chapter7/LowestCommonParent_50.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12371134">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-              <folding />
+            <state vertical-scroll-proportion="0.17857143">
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+              <folding>
+                <element signature="e#410#420#0" expanded="true" />
+                <element signature="e#466#476#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hashtable.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/java/jdk1.7.0_55/src.zip!/java/util/Hashtable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="124" column="13" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#42079#0" expanded="false" />
+                <element signature="e#10317#10318#0" expanded="false" />
+                <element signature="e#10361#10362#0" expanded="false" />
+                <element signature="e#10512#10513#0" expanded="false" />
+                <element signature="e#10543#10544#0" expanded="false" />
+                <element signature="e#11241#11242#0" expanded="false" />
+                <element signature="e#11269#11270#0" expanded="false" />
+                <element signature="e#11514#11515#0" expanded="false" />
+                <element signature="e#11547#11548#0" expanded="false" />
+                <element signature="e#11844#11845#0" expanded="false" />
+                <element signature="e#11895#11896#0" expanded="false" />
+                <element signature="e#12307#12308#0" expanded="false" />
+                <element signature="e#12360#12361#0" expanded="false" />
+                <element signature="e#14126#14127#0" expanded="false" />
+                <element signature="e#14164#14165#0" expanded="false" />
+                <element signature="e#25425#25426#0" expanded="false" />
+                <element signature="e#25473#25474#0" expanded="false" />
+                <element signature="e#25501#25502#0" expanded="false" />
+                <element signature="e#25537#25538#0" expanded="false" />
+                <element signature="e#25581#25582#0" expanded="false" />
+                <element signature="e#25626#25627#0" expanded="false" />
+                <element signature="e#25668#25669#0" expanded="false" />
+                <element signature="e#25731#25732#0" expanded="false" />
+                <element signature="e#25761#25762#0" expanded="false" />
+                <element signature="e#25807#25808#0" expanded="false" />
+                <element signature="e#26939#26940#0" expanded="false" />
+                <element signature="e#26990#26991#0" expanded="false" />
+                <element signature="e#27038#27039#0" expanded="false" />
+                <element signature="e#27081#27082#0" expanded="false" />
+                <element signature="e#28471#28472#0" expanded="false" />
+                <element signature="e#28507#28508#0" expanded="false" />
+                <element signature="e#28538#28539#0" expanded="false" />
+                <element signature="e#28584#28585#0" expanded="false" />
+                <element signature="e#29710#29711#0" expanded="false" />
+                <element signature="e#29760#29761#0" expanded="false" />
+                <element signature="e#29788#29789#0" expanded="false" />
+                <element signature="e#29824#29825#0" expanded="false" />
+                <element signature="e#29868#29869#0" expanded="false" />
+                <element signature="e#29915#29916#0" expanded="false" />
+                <element signature="e#29945#29946#0" expanded="false" />
+                <element signature="e#29991#29992#0" expanded="false" />
+                <element signature="e#37532#37533#0" expanded="false" />
+                <element signature="e#37566#37567#0" expanded="false" />
+                <element signature="e#37597#37598#0" expanded="false" />
+                <element signature="e#37633#37634#0" expanded="false" />
+                <element signature="e#38139#38140#0" expanded="false" />
+                <element signature="e#38219#38220#0" expanded="false" />
+                <element signature="e#38255#38256#0" expanded="false" />
+                <element signature="e#38321#38322#0" expanded="false" />
+                <element signature="e#40690#40691#0" expanded="false" />
+                <element signature="e#40738#40739#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,7 +208,6 @@
         <option value="$PROJECT_DIR$/src/org/dalvin/chapter4/CloneComplexListNode_26.java" />
         <option value="$PROJECT_DIR$/src/org/dalvin/chapter7/ATOI.java" />
         <option value="$PROJECT_DIR$/src/org/dalvin/chapter7/ATOI_49.java" />
-        <option value="$PROJECT_DIR$/src/org/dalvin/chapter7/LowestCommonParent_50.java" />
         <option value="$PROJECT_DIR$/src/org/dalvin/chapter6/PrintProbability_43.java" />
         <option value="$PROJECT_DIR$/src/org/dalvin/chapter6/IsContinuous_44.java" />
         <option value="$PROJECT_DIR$/src/org/dalvin/chapter6/LastRemaining_45.java" />
@@ -149,6 +230,7 @@
         <option value="$PROJECT_DIR$/src/org/dalvin/PrintMatrix.java" />
         <option value="$PROJECT_DIR$/src/org/dalvin/chapter3/Power_11.java" />
         <option value="$PROJECT_DIR$/src/org/dalvin/chapter2/Singleton_2.java" />
+        <option value="$PROJECT_DIR$/src/org/dalvin/chapter7/LowestCommonParent_50.java" />
       </list>
     </option>
   </component>
@@ -168,7 +250,7 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
+    <option name="x" value="1365" />
     <option name="y" value="27" />
     <option name="width" value="1368" />
     <option name="height" value="742" />
@@ -198,9 +280,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -263,68 +344,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chapter4" />
+              <option name="myItemId" value="chapter7" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pointoffer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pointoffer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dalvin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pointoffer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pointoffer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dalvin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Singleton_2.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,30 +368,7 @@
       <recent name="$PROJECT_DIR$/src/org/dalvin/chapter8/string" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Power_11">
-    <configuration default="false" name="ComplexListNodeCopy_26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="org.dalvin.chapter4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="org.dalvin.chapter4.ComplexListNodeCopy_26" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="pointoffer" />
-      <envs />
-      <method>
-        <option name="Make" enabled="false" />
-        <option name="MakeNoErrorCheck" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LowestCommonParent_50">
     <configuration default="false" name="StringPermutation_28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -434,6 +437,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="org.dalvin.chapter3.Power_11" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="pointoffer" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="LowestCommonParent_50" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.dalvin.chapter7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.dalvin.chapter7.LowestCommonParent_50" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -914,19 +937,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ComplexListNodeCopy_26" />
-      <item index="1" class="java.lang.String" itemvalue="Application.StringPermutation_28" />
-      <item index="2" class="java.lang.String" itemvalue="Application.StringPermutation" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PrintMatrix" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Power_11" />
+      <item index="0" class="java.lang.String" itemvalue="Application.StringPermutation_28" />
+      <item index="1" class="java.lang.String" itemvalue="Application.StringPermutation" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PrintMatrix" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Power_11" />
+      <item index="4" class="java.lang.String" itemvalue="Application.LowestCommonParent_50" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Power_11" />
-        <item index="1" class="java.lang.String" itemvalue="Application.PrintMatrix" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StringPermutation" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StringPermutation_28" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ComplexListNodeCopy_26" />
+        <item index="0" class="java.lang.String" itemvalue="Application.LowestCommonParent_50" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Power_11" />
+        <item index="2" class="java.lang.String" itemvalue="Application.PrintMatrix" />
+        <item index="3" class="java.lang.String" itemvalue="Application.StringPermutation" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StringPermutation_28" />
       </list>
     </recent_temporary>
   </component>
@@ -954,15 +977,17 @@
       <workItem from="1484703188813" duration="20530000" />
       <workItem from="1485224993389" duration="380000" />
       <workItem from="1486207841992" duration="31364000" />
-      <workItem from="1487141926062" duration="455000" />
+      <workItem from="1487141926062" duration="3882000" />
+      <workItem from="1487589060495" duration="1240000" />
+      <workItem from="1488110679883" duration="2052000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155800000" />
+    <option name="totallyTimeSpent" value="162519000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
+    <frame x="1365" y="27" width="1368" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -972,22 +997,22 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21752267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2631579" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2631579" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1010,13 +1035,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/dalvin/chapter6/BalancedBinaryTree_39.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/dalvin/chapter6/GetNumberOfK_38.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1311,13 +1329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/dalvin/chapter7/LowestCommonParent_50.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/dalvin/chapter4/ComplexListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1352,7 +1363,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#966#967#0" expanded="false" />
+            <element signature="e#1007#1008#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1360,15 +1375,89 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="30" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="e#905#906#0" expanded="false" />
+            <element signature="e#945#946#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/java/jdk1.7.0_55/src.zip!/java/util/Hashtable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="124" column="13" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#42079#0" expanded="false" />
+            <element signature="e#10317#10318#0" expanded="false" />
+            <element signature="e#10361#10362#0" expanded="false" />
+            <element signature="e#10512#10513#0" expanded="false" />
+            <element signature="e#10543#10544#0" expanded="false" />
+            <element signature="e#11241#11242#0" expanded="false" />
+            <element signature="e#11269#11270#0" expanded="false" />
+            <element signature="e#11514#11515#0" expanded="false" />
+            <element signature="e#11547#11548#0" expanded="false" />
+            <element signature="e#11844#11845#0" expanded="false" />
+            <element signature="e#11895#11896#0" expanded="false" />
+            <element signature="e#12307#12308#0" expanded="false" />
+            <element signature="e#12360#12361#0" expanded="false" />
+            <element signature="e#14126#14127#0" expanded="false" />
+            <element signature="e#14164#14165#0" expanded="false" />
+            <element signature="e#25425#25426#0" expanded="false" />
+            <element signature="e#25473#25474#0" expanded="false" />
+            <element signature="e#25501#25502#0" expanded="false" />
+            <element signature="e#25537#25538#0" expanded="false" />
+            <element signature="e#25581#25582#0" expanded="false" />
+            <element signature="e#25626#25627#0" expanded="false" />
+            <element signature="e#25668#25669#0" expanded="false" />
+            <element signature="e#25731#25732#0" expanded="false" />
+            <element signature="e#25761#25762#0" expanded="false" />
+            <element signature="e#25807#25808#0" expanded="false" />
+            <element signature="e#26939#26940#0" expanded="false" />
+            <element signature="e#26990#26991#0" expanded="false" />
+            <element signature="e#27038#27039#0" expanded="false" />
+            <element signature="e#27081#27082#0" expanded="false" />
+            <element signature="e#28471#28472#0" expanded="false" />
+            <element signature="e#28507#28508#0" expanded="false" />
+            <element signature="e#28538#28539#0" expanded="false" />
+            <element signature="e#28584#28585#0" expanded="false" />
+            <element signature="e#29710#29711#0" expanded="false" />
+            <element signature="e#29760#29761#0" expanded="false" />
+            <element signature="e#29788#29789#0" expanded="false" />
+            <element signature="e#29824#29825#0" expanded="false" />
+            <element signature="e#29868#29869#0" expanded="false" />
+            <element signature="e#29915#29916#0" expanded="false" />
+            <element signature="e#29945#29946#0" expanded="false" />
+            <element signature="e#29991#29992#0" expanded="false" />
+            <element signature="e#37532#37533#0" expanded="false" />
+            <element signature="e#37566#37567#0" expanded="false" />
+            <element signature="e#37597#37598#0" expanded="false" />
+            <element signature="e#37633#37634#0" expanded="false" />
+            <element signature="e#38139#38140#0" expanded="false" />
+            <element signature="e#38219#38220#0" expanded="false" />
+            <element signature="e#38255#38256#0" expanded="false" />
+            <element signature="e#38321#38322#0" expanded="false" />
+            <element signature="e#40690#40691#0" expanded="false" />
+            <element signature="e#40738#40739#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/dalvin/chapter2/Singleton_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12371134">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/dalvin/chapter7/LowestCommonParent_50.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17857143">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding>
+            <element signature="e#410#420#0" expanded="true" />
+            <element signature="e#466#476#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

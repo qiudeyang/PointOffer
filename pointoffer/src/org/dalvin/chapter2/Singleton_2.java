@@ -1,5 +1,7 @@
 package org.dalvin.chapter2;
 
+import java.util.Hashtable;
+
 /**
  * Created by qiudeyang on 18/12/16.
  */
@@ -20,6 +22,7 @@ class Singleton{
         }
         return instance;
     }
+
 }
 //The following is the best method
 public class Singleton_2 {

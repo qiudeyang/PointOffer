@@ -8,6 +8,7 @@ import java.util.Stack;
  * Created by qiudeyang on 04/02/17.
  */
 public class LowestCommonParent_50 {
+    //    遍历方式
     public static TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null || p == null || q == null) {
             return null;
@@ -47,6 +48,19 @@ public class LowestCommonParent_50 {
 
     }
 
+    //    Leetcode上的解法，递归方式
+    public static TreeNode lowestCommonAncestor1(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null || root == p || root == q) {
+            return root;
+        }
+        TreeNode left = lowestCommonAncestor1(root.left, p, q);
+        TreeNode right = lowestCommonAncestor1(root.right, p, q);
+        if (left != null && right != null) {
+            return root;
+        }
+        return left == null ? right : left;
+    }
+
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2);
@@ -55,5 +69,6 @@ public class LowestCommonParent_50 {
         root.left.right = new TreeNode(5);
         root.right.left = new TreeNode(6);
         System.out.println(lowestCommonAncestor(root, root.left.right, root.right.left).val);
+        System.out.println(lowestCommonAncestor1(root, root.left.right, root.right.left).val);
     }
 }
