@@ -6,6 +6,8 @@ package org.dalvin.chapter3;
 
 import org.dalvin.chapter2.ListNode;
 
+import java.util.HashMap;
+
 public class DeleteListNode_13 {
     public static ListNode removeListNode(ListNode node, ListNode toDeleteNode) {
         if (node == null) {

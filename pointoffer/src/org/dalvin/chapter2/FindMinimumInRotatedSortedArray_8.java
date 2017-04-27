@@ -17,6 +17,7 @@ public class FindMinimumInRotatedSortedArray_8 {
                 break;
             }
             indexMid = (index1 + index2) / 2;
+//            下面这种情况需要考虑到。
             if (nums[index1] == nums[index2] && nums[indexMid] == nums[index1]) {
                 return orderFindMin(nums, index1, index2);
             }

@@ -16,17 +16,16 @@ public class IsPopOrder_22 {
         Stack<Integer> stack = new Stack<Integer>();
         int pushIndex = 0;
         int popIndex = 0;
-        while (popIndex < pop.length) {
-            while (pushIndex < push.length && (stack.isEmpty() || stack.peek() != pop[popIndex])) {
-                stack.push(push[pushIndex]);
-                pushIndex++;
+        stack.push(push[pushIndex++]);
+        while (popIndex<=pop.length-1){
+            while (pop[popIndex] != stack.peek()){
+                if (pushIndex==push.length){
+                    return false;
+                }
+                stack.push(push[pushIndex++]);
             }
-            if (stack.peek() == pop[popIndex]) {
-                stack.pop();   //这一步千万别忘了，出栈。
-                popIndex++;
-            } else {
-                return false;
-            }
+            popIndex++;
+            stack.pop();
         }
         return true;
     }

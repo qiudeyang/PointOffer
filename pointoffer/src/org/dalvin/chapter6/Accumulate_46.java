@@ -15,7 +15,13 @@ public class Accumulate_46 {
         boolean b = (n == 0) || (result = n + accumulate(n-1)) > 0;
         return result;
     }
+    //感觉下面这方法更巧妙。
+    public static int accumulate1(int n){
+        int result = (int)(Math.pow(n,2)+n);
+        return result>>1;
+    }
     public static void main(String[] args) {
         System.out.println(accumulate(7));
+        System.out.println(accumulate1(7));
     }
 }
